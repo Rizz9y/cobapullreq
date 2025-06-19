@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import Notifikasi from "./Notifikasi";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const EditMahasiswa = () => {
   const [nama, setNama] = useState("");
